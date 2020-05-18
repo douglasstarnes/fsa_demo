@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/new_post">New Post</a></li>
+        </ul>
+        {% block content %}{% endblock %}
+    </body>
+</html>
